@@ -25,7 +25,7 @@ export default function App() {
       <button
         style={{ ...navBtn, left: "12px" }}
         onClick={() => setPage("uk")}
-        onMouseEnter={() => setPage("uk")}
+        // onMouseEnter={() => setPage("uk")}
         aria-label="Go to UK roadmap"
       >
         ← UK
@@ -34,7 +34,7 @@ export default function App() {
       <button
         style={{ ...navBtn, right: "12px" }}
         onClick={() => setPage("italy")}
-        onMouseEnter={() => setPage("italy")}
+        // onMouseEnter={() => setPage("italy")}
         aria-label="Go to Italy roadmap"
       >
         Italy →
